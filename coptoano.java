@@ -3,7 +3,7 @@ import java.io.*;
 public class coptoano {
     public static void main(String []arr) throws IOException{
          try{
-               FileInputStream fr = new FileInputStream("WriteData");
+               FileInputStream fr = new FileInputStream("coptoano");
                FileOutputStream fw = new FileOutputStream("pk.txt");
                PrintStream out=new PrintStream(fw);
                int i;
