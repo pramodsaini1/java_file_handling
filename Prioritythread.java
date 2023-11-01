@@ -20,8 +20,8 @@ public class Prioritythread implements Runnable {
 }
 class Demo{
     public static void main(String []arr){
-        Prioritythread t1 = new Prioritythread("First");
-        Prioritythread t1 = new Prioritythread("Second");
-        Prioritythread t1 = new Prioritythread("Third");
+        Prioritythread t1 = new Prioritythread("First",10);
+        Prioritythread t2 = new Prioritythread("Second",Thread.NORM_PRIORITY+2);
+        Prioritythread t3 = new Prioritythread("Third",Thread.MAX_PRIORITY);
     }
 }
